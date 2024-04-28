@@ -1,10 +1,32 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.css'
+import React from "react";
+import { createRoot } from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Page } from "./components/Navigation/Page";
+import { Root } from "./components/views/Root";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
+import "./index.css";
+
+const root = createRoot(document.getElementById("root")!);
+
+const App: React.FunctionComponent = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <Page>
+              <Root />
+            </Page>
+          }
+        />
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+root.render(
+  <div className="flex flex-col grow">
     <App />
-  </React.StrictMode>,
-)
+  </div>
+);
