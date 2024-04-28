@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": { "project": ["./tsconfig.json"] },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "react-hooks"],
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/prop-types": 0
+  },
+  "ignorePatterns": [
+    "dist",
+    "src/**/*.test.ts",
+    "src/frontend/generated/*",
+    "postcss.config.js",
+    "tailwind.config.js",
+    "vite.config.js",
+    "jest.config.js"
+  ],
+  "globals": {
+    "React": true,
+    "browser": true,
+    "node": true
+  }
+}
