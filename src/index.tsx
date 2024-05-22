@@ -1,7 +1,7 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Page } from "./components/Navigation/Page";
+import { Page } from "./components/navigation/Page";
 import { Root } from "./components/views/Root";
 
 import "./index.css";

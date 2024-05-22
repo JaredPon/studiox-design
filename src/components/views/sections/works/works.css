@@ -1,0 +1,5 @@
+.categories {
+  a:nth-child(odd) {
+    color: #9A9BFF;
+   }
+}

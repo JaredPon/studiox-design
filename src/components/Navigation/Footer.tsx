@@ -1,20 +1,21 @@
+import logo from "/images/logo_negative.svg";
+
 export const Footer: React.FunctionComponent = () => {
   return (
-    <div className=" bg-gray-900">
-      <div className="max-w-2xl mx-auto text-white py-10">
-        <div className="text-center">
-          <h3 className="text-3xl mb-3"> Download our fitness app </h3>
-          <p> Stay fit. All day, every day. </p>
-        </div>
-        <div className="mt-28 flex flex-col md:flex-row md:justify-between items-center text-sm text-gray-400">
-          <p className="order-2 md:order-1 mt-8 md:mt-0">
-            {" "}
-            &copy; Beautiful Footer, 2021.{" "}
-          </p>
+    <div className="bg-hero-pattern">
+      <div className="flex-grow mx-5 md:mx-10 lg:mx-44 py-10">
+        <div className="flex flex-col md:flex-row md:justify-between items-center text-sm text-base-90">
+          <div className="order-2 md:order-1 mt-8 md:mt-0">
+            <div className="text-left">
+              <h1 className="mb-3"> Need a quote? </h1>
+              <p className="text-2xl">
+                Email Danielle at:{" "}
+                <span className="font-extrabold">studioxdesign@shaw.ca</span>
+              </p>
+            </div>
+          </div>
           <div className="order-1 md:order-2">
-            <span className="px-2">About us</span>
-            <span className="px-2 border-l">Contact us</span>
-            <span className="px-2 border-l">Privacy Policy</span>
+            <img src={logo} className="w-80" alt="StudioXDesign logo" />
           </div>
         </div>
       </div>
