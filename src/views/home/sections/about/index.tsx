@@ -3,7 +3,7 @@ import letters from "/images/letters_x.png";
 export const About: React.FunctionComponent = () => {
   return (
     <div className="card mb-40 relative">
-      <div className="z-10 rounded-l-full min-h-128 pr-5 md:pr-36 xl:pr-104 pl-20 md:pl-28 bg-base-90 text-white text-left left-3 lg:left-16 relative">
+      <div className="z-10 rounded-l-full min-h-128 pr-5 md:pr-36 xl:pr-104 pl-20 md:pl-28 bg-base-90 text-white text-left left-3 md:left-16 relative">
         <div className="mt-10">
           <h1 className="text-md pt-14 pb-8">who we are</h1>
           <p className="xl:pr-44 text-l md:text-2xl">

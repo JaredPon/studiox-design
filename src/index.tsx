@@ -1,10 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Page } from "./components/navigation/Page";
-import { Root } from "./components/views/Root";
+import { Page } from "./components/navigation/page";
+import { Home } from "./views/home";
+import { CrossReference } from "./views/crossreference";
 
 import "./index.css";
+import { Contact } from "./views/contact";
+import { Gallery } from "./views/gallery";
 
 const root = createRoot(document.getElementById("root")!);
 
@@ -16,7 +19,31 @@ const App: React.FunctionComponent = () => {
           path="/"
           element={
             <Page>
-              <Root />
+              <Home />
+            </Page>
+          }
+        />
+        <Route
+          path="/gallery"
+          element={
+            <Page>
+              <Gallery />
+            </Page>
+          }
+        />
+        <Route
+          path="/contact"
+          element={
+            <Page>
+              <Contact />
+            </Page>
+          }
+        />
+        <Route
+          path="/crossreference"
+          element={
+            <Page>
+              <CrossReference />
             </Page>
           }
         />

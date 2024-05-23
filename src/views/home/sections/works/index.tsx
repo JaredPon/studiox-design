@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Carousel } from "../../../carousel";
+import { Carousel } from "../../../../components/carousel";
 import branding1 from "../../../../assets/works/branding/branding1.jpg";
 import branding2 from "../../../../assets/works/branding/branding2.jpg";
 import logo1 from "../../../../assets/works/logos/logo1.jpg";

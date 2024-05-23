@@ -17,6 +17,14 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#root {
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  max-width: 1366px;
+  background-color: white;
+}
+
 body {
   margin: 0;
   place-items: center;
@@ -32,4 +40,8 @@ h1 {
   @media (max-width: 768px) {
     font-size: 1.75em;
   }
+}
+
+.card {
+  margin-bottom: 106px;
 }
