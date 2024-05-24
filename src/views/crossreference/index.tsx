@@ -7,9 +7,9 @@ import {
   javascriptRequirements,
   responsiveRequirements,
   ctaRequirements,
-} from "./requirements";
+} from "./Requirements";
 
-import { RequirementsList } from "../../components/requirements_list";
+import { RequirementsList } from "../../components/RequirementsList";
 
 export const CrossReference: React.FunctionComponent = () => {
   return (

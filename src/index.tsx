@@ -1,13 +1,13 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Page } from "./components/navigation/page";
-import { Home } from "./views/home";
-import { CrossReference } from "./views/crossreference";
+import { Page } from "./components/Page";
+import { Home } from "./views/Home";
+import { CrossReference } from "./views/Crossreference";
 
 import "./index.css";
-import { Contact } from "./views/contact";
-import { Gallery } from "./views/gallery";
+import { Contact } from "./views/Contact";
+import { Gallery } from "./views/Gallery";
 
 const root = createRoot(document.getElementById("root")!);
 

@@ -1,16 +1,18 @@
 import { useState } from "react";
-import { Carousel } from "../../../../components/carousel";
-import branding1 from "../../../../assets/works/branding/branding1.jpg";
-import branding2 from "../../../../assets/works/branding/branding2.jpg";
-import logo1 from "../../../../assets/works/logos/logo1.jpg";
-import logo2 from "../../../../assets/works/logos/logo2.jpg";
-import logo3 from "../../../../assets/works/logos/logo3.jpg";
-import logo4 from "../../../../assets/works/logos/logo4.jpg";
-import logo5 from "../../../../assets/works/logos/logo5.jpg";
-import report1 from "../../../../assets/works/reports/report1.jpg";
-import report2 from "../../../../assets/works/reports/report2.jpg";
-import specialty1 from "../../../../assets/works/specialty/specialty1.jpg";
-import specialty2 from "../../../../assets/works/specialty/specialty2.jpg";
+import { useNavigate } from "react-router-dom";
+
+import { Carousel } from "../../../components/Carousel";
+import branding1 from "../../../assets/works/branding/branding1.jpg";
+import branding2 from "../../../assets/works/branding/branding2.jpg";
+import logo1 from "../../../assets/works/logos/logo1.jpg";
+import logo2 from "../../../assets/works/logos/logo2.jpg";
+import logo3 from "../../../assets/works/logos/logo3.jpg";
+import logo4 from "../../../assets/works/logos/logo4.jpg";
+import logo5 from "../../../assets/works/logos/logo5.jpg";
+import report1 from "../../../assets/works/reports/report1.jpg";
+import report2 from "../../../assets/works/reports/report2.jpg";
+import specialty1 from "../../../assets/works/specialty/specialty1.jpg";
+import specialty2 from "../../../assets/works/specialty/specialty2.jpg";
 
 import "./works.css";
 
@@ -23,6 +25,7 @@ enum WorkCategories {
 
 export const Works: React.FunctionComponent = () => {
   const [category, setCategory] = useState(WorkCategories.Logos);
+  const navigate = useNavigate();
 
   function selectCategory(category: WorkCategories) {
     setCategory(category);
@@ -52,7 +55,7 @@ export const Works: React.FunctionComponent = () => {
   ];
 
   return (
-    <div className="card px-5 md:px-44">
+    <section className="card px-5 md:px-44">
       <h1 className="text-left">works</h1>
       <div className="mt-11 mb-7">
         {category === WorkCategories.Branding && (
@@ -90,6 +93,16 @@ export const Works: React.FunctionComponent = () => {
           specialty
         </a>
       </div>
-    </div>
+
+      {/* PLAR Requirement 2.4.8 a) */}
+      <div className="pt-10">
+        <button
+          className="btn btn-active btn-primary btn-md lg:btn-lg"
+          onClick={() => navigate("/gallery")}
+        >
+          See More
+        </button>
+      </div>
+    </section>
   );
 };

@@ -24,16 +24,16 @@ export const Clients: React.FunctionComponent = () => {
   ];
 
   return (
-    <div className="card px-5 md:px-44 text-left">
+    <section className="card px-5 md:px-44 text-left">
       <h1 className="text-left">we are proud to collaborate with:</h1>
       <div className="md:columns-2 text-xl md:text-2xl mt-10">
         <ul className="list-none">
-          {clientList1?.map((client) => <li>{client}</li>)}
+          {clientList1?.map((client) => <li key={client}>{client}</li>)}
         </ul>
         <ul className="list-none">
-          {clientList2?.map((client) => <li>{client}</li>)}
+          {clientList2?.map((client) => <li key={client}>{client}</li>)}
         </ul>
       </div>
-    </div>
+    </section>
   );
 };

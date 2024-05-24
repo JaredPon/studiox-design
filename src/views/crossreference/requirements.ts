@@ -18,20 +18,24 @@ export const htmlRequirements: Requirements = {
       id: "a",
       description:
         "Appropriate HTML5 section elements tags, including the use of semantic HTML5 elements used in sectioning",
-      src: "",
+      src: "/",
     },
-    { id: "b", description: "Images both static and clickable", src: "" },
+    {
+      id: "b",
+      description: "Images both static and clickable",
+      src: "/gallery",
+    },
     {
       id: "c",
       description: "Use of appropriate special characters",
-      src: "",
+      src: "/",
     },
-    { id: "d", description: "Use of appropriate <meta> tags", src: "" },
+    { id: "d", description: "Use of appropriate <meta> tags", src: "/" },
     {
       id: "e",
       description:
         "Home page footer, use of the <address> element, and to indicate dynamically when the web site was last updated or modified by using BOM object",
-      src: "",
+      src: "/",
     },
   ],
 };
@@ -99,17 +103,17 @@ export const formRequirements: Requirements = {
       id: "a",
       description:
         "Appropriate form elements including the use of HTML5 form widgets",
-      src: "",
+      src: "/contact",
     },
     {
       id: "b",
       description: "Appropriate CSS3 styles applied to Web Forms",
-      src: "",
+      src: "/contact",
     },
     {
       id: "c",
       description: "Use of inline form validation with the focus pseudo-class",
-      src: "",
+      src: "/contact",
     },
   ],
 };
@@ -122,7 +126,7 @@ export const tableRequirements: Requirements = {
       id: "a",
       description:
         "Use of web tables to depict relevant appropriate business related mut be demonstrated",
-      src: "",
+      src: "/contact",
     },
   ],
 };
@@ -166,17 +170,17 @@ export const javascriptRequirements: Requirements = {
       id: "c",
       description:
         "Validating appropriate form input by using JavaScript functions (client side).",
-      src: "",
+      src: "/contact",
     },
     {
       id: "d",
       description: "Use of JavaScript alerts for validation purposes.",
-      src: "",
+      src: "/contact",
     },
     {
       id: "e",
       description: "Use of BOM/DOM in emulating events using event handlers.",
-      src: "",
+      src: "/contact",
     },
   ],
 };
@@ -206,17 +210,17 @@ export const responsiveRequirements: Requirements = {
       id: "b",
       description:
         "The use of contextual selectors to control sub level menus, including the use of a navicon image for mobile design is required. Note: For small screen sizes, be mindful of number of menus and sub menus that are visible by hovering on the navicon image",
-      src: "",
+      src: "/",
     },
     {
       id: "c",
       description: "Responsive Images",
-      src: "",
+      src: "/gallery",
     },
     {
       id: "d",
       description: "Responsive Web Form",
-      src: "",
+      src: "/contact",
     },
   ],
 };

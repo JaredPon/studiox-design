@@ -1,7 +1,7 @@
-import { About } from "./sections/about";
-import { Clients } from "./sections/clients";
-import { Testimontials } from "./sections/testimonials";
-import { Works } from "./sections/works";
+import { About } from "./About";
+import { Clients } from "./Clients";
+import { Testimontials } from "./Testimonials";
+import { Works } from "./Works";
 
 export const Home: React.FunctionComponent = () => {
   return (

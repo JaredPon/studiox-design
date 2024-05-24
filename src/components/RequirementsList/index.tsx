@@ -1,6 +1,6 @@
-import { Requirements } from "../../views/crossreference/requirements";
+import { Requirements as RequirementsType } from "../../views/Crossreference/Requirements";
 
-type Props = { requirements: Requirements };
+type Props = { requirements: RequirementsType };
 
 export const RequirementsList: React.FunctionComponent<Props> = ({
   requirements: { name, id, tasks },
