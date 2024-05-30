@@ -12,7 +12,7 @@ export const RequirementsList: React.FunctionComponent<Props> = ({
       </h3>
       <ul className="list-disc">
         {tasks?.map(({ id, description, src }) => (
-          <li>
+          <li key={id}>
             <a href={src}>{id}</a> - {description}
           </li>
         ))}

@@ -1,0 +1,14 @@
+.testimonials {
+  /* PLAR Requirement 2.4.2 a) */
+  /* PLAR Requirement 2.4.2 d) */
+  /* PLAR Requirement 2.4.2 f) */
+  p:first-child:first-letter {
+    /* PLAR Requirement 2.4.2 g) - Float */
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+  }
+}

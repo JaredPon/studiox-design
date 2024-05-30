@@ -1,0 +1,25 @@
+.party {
+  /* PLAR Requirement 2.4.2 e) */
+  background-clip: border-box;
+  background-image: url("../../../assets/playground/birthday.png");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: top;
+  /* PLAR Requirement 2.4.2 h) - Opacity */
+  opacity: 0.6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;;
+  min-height: 200px;
+
+  @media (max-width: 640px) {
+    background-size: 100%;
+  }
+  
+  button {
+    margin: 25px;
+  }
+}

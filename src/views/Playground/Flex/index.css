@@ -1,0 +1,31 @@
+/* PLAR Requirement 2.4.2 g) - Flex */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  .flex-item {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  /* PLAR Requirement 2.4.7 a.ii) - Flex */
+  @media (max-width: 640px) {
+    flex-direction: column;
+
+    .flex-item {
+      margin-bottom: 10px;
+    }
+  }
+
+  /* PLAR Requirement 2.4.2 b) */
+  div > img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  /* PLAR Requirement 2.4.2 b) */
+  div, img {
+    margin: 10px;
+  }
+}

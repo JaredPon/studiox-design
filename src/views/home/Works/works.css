@@ -1,5 +1,6 @@
 .categories {
   a:nth-child(odd) {
-    color: #9A9BFF;
+    /* PLAR Requirement 2.4.2 c) */
+    color: hsla(239, 100%, 80%);
    }
 }

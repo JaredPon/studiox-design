@@ -4,10 +4,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Page } from "./components/Page";
 import { Home } from "./views/Home";
 import { CrossReference } from "./views/Crossreference";
-
-import "./index.css";
 import { Contact } from "./views/Contact";
 import { Gallery } from "./views/Gallery";
+import { Playground } from "./views/Playground";
+
+import "./index.css";
 
 const root = createRoot(document.getElementById("root")!);
 
@@ -36,6 +37,14 @@ const App: React.FunctionComponent = () => {
           element={
             <Page>
               <Contact />
+            </Page>
+          }
+        />
+        <Route
+          path="/playground"
+          element={
+            <Page>
+              <Playground />
             </Page>
           }
         />

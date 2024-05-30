@@ -1,5 +1,6 @@
 import { useState } from "react";
 import logo from "/images/logo.svg";
+import "./index.css";
 
 export const Header: React.FunctionComponent = () => {
   const [hidden, setHidden] = useState(true);
@@ -29,33 +30,39 @@ export const Header: React.FunctionComponent = () => {
         </button>
       </div>
       {/* PLAR Requirement 2.4.7 b) */}
-      <nav className="w-full block flex-grow lg:flex  lg:w-auto">
+      <nav className="w-full block flex-grow lg:flex lg:w-auto">
         <div
           className={`flex flex-col text-base-90 text-md lg:text-xl lg:text-right lg:flex-grow lg:justify-end lg:mr-8 lg:flex-row ${hidden ? "hidden lg:block" : ""}`}
         >
           <a
             href="/"
-            className="block mt-4 border rounded p-2 border-base-70 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-4"
+            className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Home
           </a>
           <a
             href="/contact"
-            className="block mt-4 border rounded p-2 border-base-70 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-4"
+            className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Contact
           </a>
           <a
             href="/gallery"
-            className="block mt-4 border rounded p-2 border-base-70 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-4"
+            className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Gallery
           </a>
           <a
-            href="/crossreference"
-            className="block mt-4 border rounded p-2 border-base-70 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-4"
+            href="/playground"
+            className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
-            Cross Reference
+            Playground
+          </a>
+          <a
+            href="/crossreference"
+            className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
+          >
+            Reference
           </a>
         </div>
       </nav>

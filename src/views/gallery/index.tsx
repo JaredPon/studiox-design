@@ -17,7 +17,7 @@ export const Gallery: React.FunctionComponent = () => {
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         {galleryImages?.map(({ src, alt }) => {
           return (
-            <div onClick={() => handleClick({ src, alt, id: alt })}>
+            <div key={src} onClick={() => handleClick({ src, alt, id: alt })}>
               {/* PLAR Requirement 2.4.1 b - clickable image */}
               {/* PLAR Requirement 2.4.7 c) */}
               <img

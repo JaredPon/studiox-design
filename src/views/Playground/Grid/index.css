@@ -1,0 +1,11 @@
+/* PLAR Requirement 2.4.2 g) - Grid */
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+
+  /* PLAR Requirement 2.4.7 a.i) - Grid */
+  @media (max-width: 640px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

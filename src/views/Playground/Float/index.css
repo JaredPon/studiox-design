@@ -1,0 +1,17 @@
+/* PLAR Requirement 2.4.2 g) - Float */
+.float-container {
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .float-image {
+    float: right;
+
+    @media (max-width: 640px) {
+      float: none;
+    }
+  }
+}

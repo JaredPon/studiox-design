@@ -13,46 +13,46 @@ import specialty2 from "../../assets/works/specialty/specialty2.jpg";
 export const galleryImages = [
   {
     src: branding1,
-    alt: "",
+    alt: "branding1",
   },
   {
     src: branding2,
-    alt: "",
+    alt: "branding2",
   },
   {
     src: logo1,
-    alt: "",
+    alt: "logo1",
   },
   {
     src: logo2,
-    alt: "",
+    alt: "logo2",
   },
   {
     src: logo3,
-    alt: "",
+    alt: "logo3",
   },
   {
     src: logo4,
-    alt: "",
+    alt: "logo4",
   },
   {
     src: logo5,
-    alt: "",
+    alt: "logo5",
   },
   {
     src: report1,
-    alt: "",
+    alt: "report1",
   },
   {
     src: report2,
-    alt: "",
+    alt: "report2",
   },
   {
     src: specialty1,
-    alt: "",
+    alt: "specialty1",
   },
   {
     src: specialty2,
-    alt: "",
+    alt: "specialty2",
   },
 ];

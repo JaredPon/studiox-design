@@ -48,7 +48,7 @@ export const cssRequirements: Requirements = {
       id: "a",
       description:
         "Format the appearance of paragraphs, lists, headers, background images, tables, forms with the use of appropriate CSS3 selectors",
-      src: "",
+      src: "/",
     },
     {
       id: "b",
@@ -60,31 +60,31 @@ export const cssRequirements: Requirements = {
       id: "c",
       description:
         "CSS3 styles for color (RGBA & HSLA). Demonstrate that you understand the concept of progressive enhancement",
-      src: "",
+      src: "/",
     },
     {
       id: "d",
       description:
         "Appropriate use of dynamic pseudo-classes to highlight hyperlinks states of link, visited, active, hover, including focus and two structural pseudo-classes: first-of-type and last-of-type",
-      src: "",
+      src: "/crossreference",
     },
     {
       id: "e",
       description:
         "Appropriate use of CSS3 background styles (background size, background-clip, background-origin, etc.), padding, margins, borders, including the use of rounded corners",
-      src: "",
+      src: "/playground",
     },
     {
       id: "f",
       description:
         "The user of a drop cap created with CSS3 is to be implemented at an appropriate place on your home page",
-      src: "",
+      src: "/",
     },
     {
       id: "g",
       description:
         "Use of CSS3 page layout techniques with grid, flex, float and positioning MUST ALL be demonstrated. The use of framework for layout is discouraged due to ALL be demonstrated. The use of framework for layout is discouraged due to too many unknown factors",
-      src: "",
+      src: "/playground",
     },
     {
       id: "h",
@@ -139,13 +139,13 @@ export const mediaRequirements: Requirements = {
       id: "a",
       description:
         "Appropriate use of sound and video elements on your site. Note: Ensure audio and video clip are of no more than 30 seconds duration",
-      src: "",
+      src: "/playground",
     },
     {
       id: "b",
       description:
         "Appropriate use of CSS3 transitions and animations that enhances functionality of your website",
-      src: "",
+      src: "/playground",
     },
   ],
 };
@@ -158,13 +158,13 @@ export const javascriptRequirements: Requirements = {
       id: "a",
       description:
         "Use of appropriate variables, arithmetic, comparison and logical operators, subroutines, functions, arrays, conditional statements, conditional operators, running time commands with system clock",
-      src: "",
+      src: "/playground",
     },
     {
       id: "b",
       description:
         "Use of system date (example: clock, countdown timer to an event) on your web site.",
-      src: "",
+      src: "/playground",
     },
     {
       id: "c",
@@ -193,18 +193,18 @@ export const responsiveRequirements: Requirements = {
       id: "a.i",
       description:
         "CSS Grid Layout using the display: grid (Note: The use of third party grid/flex layouts is NOT allowed.)",
-      src: "",
+      src: "/playground",
     },
     {
       id: "a.ii",
       description:
         "CSS Flex Layout using the display: flex (Note: The use of third party grid/flex layouts is NOT allowed.)",
-      src: "",
+      src: "/playground",
     },
     {
       id: "a.iii",
       description: "CSS Positioning",
-      src: "",
+      src: "/",
     },
     {
       id: "b",
@@ -233,7 +233,7 @@ export const ctaRequirements: Requirements = {
       id: "a",
       description:
         "Your website must include at least THREE CTAs located on the homepage of the website.",
-      src: "",
+      src: "/",
     },
   ],
 };

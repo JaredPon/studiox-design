@@ -1,0 +1,20 @@
+
+  /* PLAR Requirement 2.4.2 a) */
+  /* PLAR Requirement 2.4.7 b) */
+  header nav a {
+    /* PLAR Requirement 2.4.2 c) */
+    border-color: rgba(154, 155, 255);
+
+    &:hover {
+      color: #393636;
+      text-decoration: underline;
+    }
+  
+    &:visited {
+      color: #393636
+    }
+  
+    &:active {
+      color: #393636
+    }
+  }

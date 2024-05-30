@@ -7,10 +7,10 @@ export const About: React.FunctionComponent = () => {
   return (
     // PLAR Requirement 2.4.1 a)
     <section className="card mb-40 relative">
-      <div className="z-10 rounded-l-full min-h-128 pr-5 md:pr-36 xl:pr-104 pl-20 md:pl-28 bg-base-90 text-white text-left left-3 md:left-16 relative">
-        <div className="mt-10">
-          <h1 className="text-md pt-14 pb-8">who we are</h1>
-          <p className="xl:pr-44 text-l md:text-2xl">
+      <div className="z-10 h-128 px-5 bg-base-90 text-white text-left relative sm:h-144 sm:rounded-l-full sm:pl-20 sm:pl-28 sm:left-3 md:left-16 md:pr-36 xl:pr-112">
+        <div className="sm:mt-10">
+          <h1 className="text-md py-10 sm:pt-14 sm:pb-8">who we are</h1>
+          <p className="text-xl sm:text-2xl xl:pr-44">
             Established in 1996, Studio X Design Inc. is a mother- daughter team
             with over 30 years of combined graphic design experience. Based in
             Calgary, we serve a diverse clientele, from established corporations
@@ -19,7 +19,7 @@ export const About: React.FunctionComponent = () => {
             excellence.
           </p>
           {/* PLAR Requirement 2.4.8 a) */}
-          <div className="flex py-5 sm:py-10 justify-center	">
+          <div className="flex py-5 justify-center sm:py-10">
             <button
               className="btn btn-active btn-primary btn-md md:btn-lg"
               onClick={() => navigate("/contact")}
@@ -28,11 +28,13 @@ export const About: React.FunctionComponent = () => {
             </button>
           </div>
         </div>
-        <div className="z-10 rounded-l-full max-w-128 overflow-hidden absolute right-0 top-0 hidden xl:block">
-          <img src={letters} className="w-full" />
+        {/* 2.4.7 a.iii - CSS Positioning */}
+        <div className="z-10 rounded-l-full h-144 overflow-hidden absolute right-0 top-0 hidden xl:block">
+          <img src={letters} className="w-full h-full" />
         </div>
       </div>
-      <div className="z-0 rounded-r-full w-full min-h-128 overflow-hidden absolute -left-5 md:-left-48 -bottom-10 md:-bottom-20 bg-hero-pattern"></div>
+      {/* 2.4.7 a.iii - CSS Positioning */}
+      <div className="z-0  w-full min-h-128 overflow-hidden absolute -bottom-10 bg-hero-pattern sm:rounded-r-full sm:min-h-144 sm:-left-5 md:-left-48 md:-bottom-20"></div>
     </section>
   );
 };
