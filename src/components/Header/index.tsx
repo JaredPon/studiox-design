@@ -53,10 +53,10 @@ export const Header: React.FunctionComponent = () => {
             Gallery
           </a>
           <a
-            href="/playground"
+            href="/events"
             className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
-            Playground
+            Events
           </a>
           <a
             href="/crossreference"

@@ -8,7 +8,9 @@ export const Gallery: React.FunctionComponent = () => {
 
   function handleClick(image: Image) {
     setImage(image);
-    document.getElementById("imageView")?.showModal();
+    const modal = document.getElementById("imageView") as HTMLDialogElement;
+
+    modal.showModal();
   }
 
   return (

@@ -41,7 +41,7 @@ const App: React.FunctionComponent = () => {
           }
         />
         <Route
-          path="/playground"
+          path="/events"
           element={
             <Page>
               <Playground />

@@ -5,9 +5,14 @@ import Pause from "/images/pause.svg";
 
 import "./index.css";
 
+interface useAudioResponse {
+  playing: boolean;
+  toggle: () => void;
+}
+
 export const Party: React.FunctionComponent = () => {
   /* PLAR Requirement 2.4.5 a) */
-  const useAudio = (url: string) => {
+  const useAudio = (url: string): useAudioResponse => {
     const [audio] = useState(new Audio(url));
     const [playing, setPlaying] = useState(false);
 
@@ -25,10 +30,10 @@ export const Party: React.FunctionComponent = () => {
       };
     }, []);
 
-    return [playing, toggle];
+    return { playing, toggle };
   };
 
-  const [playing, toggle] = useAudio(PartyHorn);
+  const { playing, toggle } = useAudio(PartyHorn);
 
   return (
     <div className="party">

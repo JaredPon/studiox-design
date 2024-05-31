@@ -1,9 +1,9 @@
 import { FormEvent, useRef } from "react";
 
 export const Contact: React.FunctionComponent = () => {
-  const emailRef = useRef(null);
-  const subjectRef = useRef(null);
-  const messageRef = useRef(null);
+  const emailRef = useRef<HTMLInputElement>(null);
+  const subjectRef = useRef<HTMLInputElement>(null);
+  const messageRef = useRef<HTMLTextAreaElement>(null);
 
   const validateEmail = (email: string): boolean => {
     const re = /\S+@\S+\.\S+/;
@@ -14,7 +14,7 @@ export const Contact: React.FunctionComponent = () => {
   const handleBlur = () => {
     const email = emailRef?.current?.value;
 
-    if (!validateEmail(email)) {
+    if (email && !validateEmail(email)) {
       // PLAR Requirement 2.4.6 d)
       alert("Invalid Email Address");
     }
@@ -26,7 +26,7 @@ export const Contact: React.FunctionComponent = () => {
     const subject = subjectRef?.current?.value;
     const message = messageRef.current?.value;
 
-    if (validateEmail(email)) {
+    if (email && validateEmail(email)) {
       const mailToLink = `mailto:${email}?subject=${subject}&body=${message}`;
       window.location.href = mailToLink;
     } else {

@@ -8,7 +8,7 @@ export const RequirementsList: React.FunctionComponent<Props> = ({
   return (
     <div className="text-left my-3 mx-10">
       <h3 className="font-bold text-xl">
-        {name} {id}
+        {id} - {name}
       </h3>
       <ul className="list-disc">
         {tasks?.map(({ id, description, src }) => (

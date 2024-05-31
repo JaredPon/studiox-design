@@ -13,35 +13,34 @@ export const Playground: React.FunctionComponent = () => {
     <div className="playground bg-white">
       <Confetti></Confetti>
       <h1 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900">
-        Playground
+        Events
       </h1>
       <section>
         <div className="birthday">
           <Party></Party>
-          <p className="mb-1 text-xl font-extrabold text-green-600">Play me!</p>
+          <p className="mb-1 text-3xl font-extrabold">
+            Join us for a gathering at our location on 2024-07-15
+          </p>
+          <div className="my-6 text-4xl font-extrabold">
+            <Clock endDate={new Date("2024-07-15")}></Clock>
+          </div>
         </div>
       </section>
       <section>
         <h3 className="mb-4 tracking-tight font-extrabold text-center text-gray-900">
-          System Clock
-        </h3>
-        <Clock></Clock>
-      </section>
-      <section>
-        <h3 className="mb-4 tracking-tight font-extrabold text-center text-gray-900">
-          Grid Layout
+          Meet our community!
         </h3>
         <Grid></Grid>
       </section>
       <section>
         <h3 className="mb-4 tracking-tight font-extrabold text-center text-gray-900">
-          Flex Layout
+          See our products!
         </h3>
         <Flex></Flex>
       </section>
       <section>
         <h3 className="mb-4 tracking-tight font-extrabold text-center text-gray-900">
-          Float Layout
+          Hear from our customers!
         </h3>
         <Float></Float>
       </section>
