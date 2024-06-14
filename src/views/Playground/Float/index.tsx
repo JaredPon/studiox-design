@@ -14,27 +14,27 @@ export const Float: React.FunctionComponent = () => {
       <div>
         <div className="my-5">
           <p className="text-lg lg:text-xl">
-            Working with Studio X Design has been fantastic. They’ve done an
-            incredible job designing logos and graphics for several of mine and
-            my family’s businesses. They are flexible and is always able to work
-            within my deadlines. I highly recommend the team at Studio X for
-            anyone in need of top-quality design work!
+            As a project manager, I can say that one of Sandy’s key attributes
+            is a willingness to be creative, fast and patient with complex
+            approval processes. She has extensive experience with other orders
+            of government and the private sector, enabling her to bring good
+            counsel to the table when we do not always know with certainty how
+            the finished product should look. And in my experience, she is not
+            happy until we are happy, which can make all the difference.
           </p>
           <p className="text-md mt-2 italic lg:text-lg">
-            – Janet Garvey, Hurricane Pipe & Supply LLC
+            – D. Holehouse Corporate Communications City of Edmonton
           </p>
         </div>
         <div className="my-5">
           <p className="text-lg lg:text-xl">
-            As an indigenous goods supplier, it’s important that we connect with
-            indigenous artists for all facets of our brand. We are happy to be
-            able to collaborate with Danielle, a local Métis graphic designer.
-            She’s helped revitalize our brand’s visual identity, as well as help
-            out with our sub-brands. We plan to work with her for many years to
-            come!
+            We’ve worked with Studio X for several years on a variety of
+            projects. We appreciate the quick turnaround and attention to all
+            the details and parameters involved.
           </p>
           <p className="text-md mt-2 italic lg:text-lg">
-            – Martin Williams, Western Varieties Wholesale & Buffalo Cross
+            – Mike Steger Vice President, Marketing and Communications TELUS
+            World of Science – Edmonton
           </p>
         </div>
       </div>
