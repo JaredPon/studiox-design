@@ -98,7 +98,7 @@ export const Works: React.FunctionComponent = () => {
       <div className="pt-10">
         <button
           className="btn btn-active btn-primary btn-md lg:btn-lg"
-          onClick={() => navigate("/studiox-design/gallery")}
+          onClick={() => navigate("/gallery")}
         >
           See More
         </button>

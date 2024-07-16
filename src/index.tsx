@@ -1,6 +1,6 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import { Page } from "./components/Page";
 import { Home } from "./views/Home";
 import { CrossReference } from "./views/Crossreference";
@@ -14,8 +14,7 @@ const root = createRoot(document.getElementById("root")!);
 
 const App: React.FunctionComponent = () => {
   return (
-    // <BrowserRouter basename="/studiox-design/">
-    <BrowserRouter basename="/studiox-design/">
+    <HashRouter>
       <Routes>
         <Route
           path="/"
@@ -58,7 +57,7 @@ const App: React.FunctionComponent = () => {
           }
         />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 

@@ -22,7 +22,7 @@ export const About: React.FunctionComponent = () => {
           <div className="flex py-5 justify-center sm:py-10">
             <button
               className="btn btn-active btn-primary btn-md md:btn-lg"
-              onClick={() => navigate("/studiox-design/contact")}
+              onClick={() => navigate("/contact")}
             >
               Contact Us
             </button>

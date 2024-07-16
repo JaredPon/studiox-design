@@ -98,7 +98,7 @@ export const htmlRequirements: Requirements = {
     {
       id: "b",
       description: "Images both static and clickable",
-      src: "/studiox-design/gallery",
+      src: "/#/gallery",
     },
     {
       id: "c",
@@ -129,7 +129,7 @@ export const cssRequirements: Requirements = {
       id: "b",
       description:
         "CSS3 contextual selectors (e1, e2, e3; e f; e > f; e + f) and at least two other CSS3 contextual selectors (e1, e2, e3; e f; e > f; e + f) and at least two other attribute selectors, besides class and id attribute selectors",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "c",
@@ -141,13 +141,13 @@ export const cssRequirements: Requirements = {
       id: "d",
       description:
         "Appropriate use of dynamic pseudo-classes to highlight hyperlinks states of link, visited, active, hover, including focus and two structural pseudo-classes: first-of-type and last-of-type",
-      src: "/studiox-design/crossreference",
+      src: "/#/crossreference",
     },
     {
       id: "e",
       description:
         "Appropriate use of CSS3 background styles (background size, background-clip, background-origin, etc.), padding, margins, borders, including the use of rounded corners",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "f",
@@ -159,13 +159,13 @@ export const cssRequirements: Requirements = {
       id: "g",
       description:
         "Use of CSS3 page layout techniques with grid, flex, float and positioning MUST ALL be demonstrated. The use of framework for layout is discouraged due to ALL be demonstrated. The use of framework for layout is discouraged due to too many unknown factors",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "h",
       description:
         "CSS3 text, box shadows, transform, rotate, opacity features must be applied appropriately on your web site",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
   ],
 };
@@ -178,17 +178,17 @@ export const formRequirements: Requirements = {
       id: "a",
       description:
         "Appropriate form elements including the use of HTML5 form widgets",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
     {
       id: "b",
       description: "Appropriate CSS3 styles applied to Web Forms",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
     {
       id: "c",
       description: "Use of inline form validation with the focus pseudo-class",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
   ],
 };
@@ -201,7 +201,7 @@ export const tableRequirements: Requirements = {
       id: "a",
       description:
         "Use of web tables to depict relevant appropriate business related mut be demonstrated",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
   ],
 };
@@ -214,13 +214,13 @@ export const mediaRequirements: Requirements = {
       id: "a",
       description:
         "Appropriate use of sound and video elements on your site. Note: Ensure audio and video clip are of no more than 30 seconds duration",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "b",
       description:
         "Appropriate use of CSS3 transitions and animations that enhances functionality of your website",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
   ],
 };
@@ -233,29 +233,29 @@ export const javascriptRequirements: Requirements = {
       id: "a",
       description:
         "Use of appropriate variables, arithmetic, comparison and logical operators, subroutines, functions, arrays, conditional statements, conditional operators, running time commands with system clock",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "b",
       description:
         "Use of system date (example: clock, countdown timer to an event) on your web site.",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "c",
       description:
         "Validating appropriate form input by using JavaScript functions (client side).",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
     {
       id: "d",
       description: "Use of JavaScript alerts for validation purposes.",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
     {
       id: "e",
       description: "Use of BOM/DOM in emulating events using event handlers.",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
   ],
 };
@@ -268,13 +268,13 @@ export const responsiveRequirements: Requirements = {
       id: "a.i",
       description:
         "CSS Grid Layout using the display: grid (Note: The use of third party grid/flex layouts is NOT allowed.)",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "a.ii",
       description:
         "CSS Flex Layout using the display: flex (Note: The use of third party grid/flex layouts is NOT allowed.)",
-      src: "/studiox-design/events",
+      src: "/#/events",
     },
     {
       id: "a.iii",
@@ -290,12 +290,12 @@ export const responsiveRequirements: Requirements = {
     {
       id: "c",
       description: "Responsive Images",
-      src: "/studiox-design/gallery",
+      src: "/#/gallery",
     },
     {
       id: "d",
       description: "Responsive Web Form",
-      src: "/studiox-design/contact",
+      src: "/#/contact",
     },
   ],
 };
@@ -320,17 +320,17 @@ export const projectDocumentation: Requirements = {
     {
       id: "Web Project Proposal",
       description: "pdf",
-      src: "/studiox-design/documents/web_project_proposal.pdf",
+      src: "/#/documents/web_project_proposal.pdf",
     },
     {
       id: "Web Project Documentation",
       description: "pdf",
-      src: "/studiox-design/documents/web_project_documentation.pdf",
+      src: "/#/documents/web_project_documentation.pdf",
     },
     {
       id: "Home Page Layout Sketch",
       description: "pdf",
-      src: "/studiox-design/documents/home_layout_sketch.pdf",
+      src: "/#/documents/home_layout_sketch.pdf",
     },
   ],
 };
