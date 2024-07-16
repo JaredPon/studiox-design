@@ -19,10 +19,10 @@ export const Playground: React.FunctionComponent = () => {
         <div className="birthday">
           <Party></Party>
           <p className="mb-1 text-3xl font-extrabold">
-            Join us for a gathering at our location on 2024-07-15
+            Join us for a gathering at our location on 2024-12-05
           </p>
           <div className="my-6 text-4xl font-extrabold">
-            <Clock endDate={new Date("2024-07-15")}></Clock>
+            <Clock endDate={new Date("2024-12-05")}></Clock>
           </div>
         </div>
       </section>

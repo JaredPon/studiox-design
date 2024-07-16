@@ -320,17 +320,17 @@ export const projectDocumentation: Requirements = {
     {
       id: "Web Project Proposal",
       description: "pdf",
-      src: "/#/documents/web_project_proposal.pdf",
+      src: "/studiox-design/documents/web_project_proposal.pdf",
     },
     {
       id: "Web Project Documentation",
       description: "pdf",
-      src: "/#/documents/web_project_documentation.pdf",
+      src: "/studiox-design/documents/web_project_documentation.pdf",
     },
     {
       id: "Home Page Layout Sketch",
       description: "pdf",
-      src: "/#/documents/home_layout_sketch.pdf",
+      src: "/studiox-design/documents/home_layout_sketch.pdf",
     },
   ],
 };
