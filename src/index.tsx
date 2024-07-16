@@ -14,7 +14,8 @@ const root = createRoot(document.getElementById("root")!);
 
 const App: React.FunctionComponent = () => {
   return (
-    <BrowserRouter>
+    // <BrowserRouter basename="/studiox-design/">
+    <BrowserRouter basename="/studiox-design/">
       <Routes>
         <Route
           path="/"
