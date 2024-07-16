@@ -26,7 +26,7 @@ export const Footer: React.FunctionComponent = () => {
             <div className="flex py-5 sm:py-10 justify-center	">
               <button
                 className="btn btn-active btn-neutral btn-md md:btn-lg"
-                onClick={() => navigate("/contact")}
+                onClick={() => navigate("/studiox-design/contact")}
               >
                 Contact Us
               </button>

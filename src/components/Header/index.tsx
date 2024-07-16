@@ -41,25 +41,25 @@ export const Header: React.FunctionComponent = () => {
             Home
           </a>
           <a
-            href="/contact"
+            href="/studiox-design/contact"
             className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Contact
           </a>
           <a
-            href="/gallery"
+            href="/studiox-design/gallery"
             className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Gallery
           </a>
           <a
-            href="/events"
+            href="/studiox-design/events"
             className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Events
           </a>
           <a
-            href="/crossreference"
+            href="/studiox-design/crossreference"
             className="block mt-4 border rounded p-2 lg:border-0 lg:inline-block lg:mt-0 text-base-90 mr-2"
           >
             Reference
